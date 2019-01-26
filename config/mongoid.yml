@@ -1,0 +1,6 @@
+development:
+  clients:
+    default:
+      database: yt_betterlist
+      hosts:
+        - localhost: 27017
