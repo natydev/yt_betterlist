@@ -45,6 +45,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'rubocop', '0.64.0', require: false
   gem 'faker', '1.9.3'
   gem 'rspec-rails', '3.8.2'
   gem 'shoulda-matchers', '3.1.3'
