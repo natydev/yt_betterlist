@@ -1,6 +1,11 @@
 development:
   clients:
     default:
-      database: yt_betterlist
-      hosts:
-        - localhost: 27017
+      database: yt_betterlist_development
+      hosts: [ 'localhost:27017' ]
+
+test:
+  clients:
+    default:
+      database: yt_betterlist_test
+      hosts: [ 'localhost:27017' ]

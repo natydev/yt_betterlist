@@ -44,7 +44,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do
+group :development, :test do
+  gem 'faker', '1.9.3'
+  gem 'rspec-rails', '3.8.2'
+  gem 'shoulda-matchers', '3.1.3'
+  gem 'database_cleaner', '1.7.0'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
